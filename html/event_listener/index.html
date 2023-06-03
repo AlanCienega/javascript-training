@@ -6,17 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Listener</title>
   </head>
+  <style>
+    .mouse-area {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #09f;
+      display: grid;
+      place-items: center;
+      font-size: 2rem;
+    }
+  </style>
   <body>
     <header></header>
     <section>
-      <h3>Counter <span>0</span></h3>
-      <button>click</button>
+      <h3><button>click</button> <span>0</span></h3>
     </section>
+    <br />
     <section>
       <form action.prevent>
         <input type="text" />
         <span id="dynamic_text"></span>
       </form>
+    </section>
+    <br />
+    <section>
+      <div class="mouse-area">
+        <span>(づ ᴗ _ᴗ)づ♡</span>
+      </div>
     </section>
     <script src="index.js"></script>
   </body>

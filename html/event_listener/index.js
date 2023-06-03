@@ -3,6 +3,7 @@ const counter_tag = document.querySelector("span");
 const button = document.querySelector("button");
 const input = document.querySelector("input");
 const dynamic_text = document.getElementById("dynamic_text");
+const mouse_area = document.querySelector(".mouse-area");
 
 let counter = 0;
 header.textContent = "Event Listener";
@@ -23,4 +24,11 @@ input.addEventListener("keyup", (event) => {
    * pero ya el evento nos da el valor del input asi que no necesitamos traerlo de nuevo
    */
   dynamic_text.textContent = event.target.value;
+});
+
+mouse_area.addEventListener("mouseenter", (event) => {
+  event.target.textContent = `( ͡° ͜ʖ ͡°)`;
+});
+mouse_area.addEventListener("mouseleave", (event) => {
+  event.target.textContent = `(づ ᴗ _ᴗ)づ`;
 });
