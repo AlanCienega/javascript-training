@@ -8,8 +8,6 @@ const people = [
 ];
 
 // con a - b ordena de forma ascendente
-const sorted = people.sort((a, b) => {
-  return a.age - b.age;
-});
+const sorted = people.sort((a, b) => a.age - b.age);
 
 console.log(sorted);
