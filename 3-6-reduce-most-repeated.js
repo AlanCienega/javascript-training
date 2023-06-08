@@ -7,8 +7,14 @@ function findMostRepeated(array) {
     }
     return prev;
   }, {});
-  return Object.values(repeated).sort((a, b) => b - a)[0];
+  console.log(repeated);
+  const highestCount = Math.max(...Object.values(repeated));
+  const mostRepeatedValue = Object.keys(repeated).find((key) => {
+    console.log(key);
+    return repeated[key] === highestCount;
+  });
+  return mostRepeatedValue;
 }
 
-const elements = [1, 2, 3, 2, 3];
-console.log(findMostRepeated(elements));
+const elements = ["a", "a", "c", "z", "z", "z"];
+console.log("most repeated ", findMostRepeated(elements));
