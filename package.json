@@ -1,0 +1,12 @@
+{
+  "name": "javascript-guide",
+  "version": "1.0.0",
+  "description": "guide to practice js",
+  "main": "1-1-esPar.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AlanCienega",
+  "license": "ISC"
+}

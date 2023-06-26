@@ -1,7 +1,8 @@
 function esPalindromo(cadena) {
   return (
-    cadena.toLowerCase() === cadena.split("").reverse().join("").toLowerCase()
+    cadena.toLowerCase().replaceAll(" ", "") ===
+    cadena.split("").reverse().join("").toLowerCase().replaceAll(" ", "")
   );
 }
 
-console.log(esPalindromo("Ana"));
+console.log(esPalindromo("Anita lava la tina"));

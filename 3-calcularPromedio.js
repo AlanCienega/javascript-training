@@ -1,4 +1,4 @@
-let randomNumbers = [10, 10, 13];
+import { random_nums_arr } from "./data";
 
 function calcularPromedio(numeros) {
   let sum = 0;
@@ -9,4 +9,4 @@ function calcularPromedio(numeros) {
   return sum / numeros.length;
 }
 
-console.log(calcularPromedio(randomNumbers));
+console.log(calcularPromedio(random_nums_arr));
