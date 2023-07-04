@@ -1,25 +1,7 @@
-body {
-  /* Prevent the user selecting text in the example */
-  user-select: none;
-}
-
-#draggable {
-  text-align: center;
-  background: white;
-}
-
 .dropzone {
-  width: 200px;
-  height: 20px;
-  background: blueviolet;
+  width: 350px;
+  height: 70px;
   margin: 10px;
   padding: 10px;
-}
-
-.dropzone.dragover {
-  background-color: purple;
-}
-
-.dragging {
-  opacity: 0.5;
+  border: 1px solid #aaaaaa;
 }
