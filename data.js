@@ -61,7 +61,7 @@ const data = {
     },
   ],
   super_herores_arr: ["spiderman", "batman", "superman", "wonder woman"],
-  int_nums_arr: [-6, 87, 2, -9, 0, -3],
+  int_nums_arr: [-6, 87, 2, -9, 0, -3 ,4, 2, 3, 21],
   fruits: [
     {
       name: "lemon",
